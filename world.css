@@ -1,0 +1,192 @@
+body {
+    background-color: #ccc;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #487199;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center items vertically */
+}
+
+header img {
+    border-radius: 50%;
+    background-color: transparent;
+    margin-right: 10px;
+    padding: 5px;
+    opacity: 0.8;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    margin-top: 20px;
+}
+
+section h2 {
+    color: #333;
+    margin-bottom: 5px;
+    width: 100%;
+    border-bottom: 1px solid #333;
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+
+
+.search-container {
+    background-color: #eee;
+    padding: 10px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-container input {
+    margin-bottom: 10px;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px; /* Adjust the space between buttons as needed */
+}
+
+
+.button-container button {
+    flex: 1; /* Make buttons take equal width */
+}
+
+
+
+#result-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px 0;
+    margin-top: 40px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.search-label {
+    color: #0f0f0f;
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+    padding-right: 10px;
+}
+
+section input {
+    border: none;
+    width: 60%;
+    height: 3rem;
+    font-size: 1rem;
+    padding: 0 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+section button {
+    border: none;
+    height: 2.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+    width: 60%;
+    margin-bottom: 10px;
+}
+
+#lookup {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#lookupCities {
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#result  {
+    padding-top: 20px;
+}
+
+#result h2 {
+    color: white;
+    background-color: black;
+    margin-bottom: 5px;
+    width: 100%;
+    border-bottom: 1px solid #333;
+    padding-bottom: 5px;
+    padding-top: 20px;
+    text-decoration: none;
+}
+
+#result table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#result th, #result td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+#result th {
+    background-color: #fffefe;
+    color: rgb(7, 7, 7);
+}
+
+#result tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+#controls {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#country {
+    margin-right: 10px; /* Adjust the margin to create space between input and buttons */
+}
+
+button {
+    height: 2rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    width: auto; /* Allow buttons to adjust their width based on content */
+    margin: 0 5px; /* Adjust the margin between buttons */
+}
